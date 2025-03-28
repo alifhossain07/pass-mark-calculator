@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.font-title {
+  font-family: var(--font-crimson-pro), serif;
+}
+
+/* Montserrat for general text */
+.font-text {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.font-text {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Cutive for specific text */
+.font-cutive {
+  font-family: var(--font-cutive), serif;
+}
+
+/* Croissant One for decorative text */
+.font-croissant {
+  font-family: var(--font-croissant-one), cursive;
+}
+
+/* Cantata One for elegant titles */
+.font-cantata {
+  font-family: var(--font-cantata-one), serif;
+}
+
+/* Bungee for bold and funky text */
+.font-bungee {
+  font-family: var(--font-bungee), cursive;
+}
