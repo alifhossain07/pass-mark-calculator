@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Crimson_Pro, Cutive, Croissant_One, Cantata_One, Bungee } from "next/font/google";
 import "./globals.css";
 
+
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
@@ -51,6 +52,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${crimsonPro.variable} ${cutive.variable} ${croissantOne.variable} ${cantataOne.variable} ${bungee.variable} antialiased`}
       >
+        
         {children}
       </body>
     </html>
